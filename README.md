@@ -21,11 +21,45 @@ Our CAD design is three “Barrels” one for hours, one for minutes and another
 
 We also had to design parts to holds the servo in the middle of the barrel with screwable clips.
 
-<img src="servomotorStand.png" width="750">
+<img src="../../blob/main/media/servomotorStand.png" width="200">
 
-### Electronicss Design 
+### Electronics Design 
+
+#### Servo Motors 
+
+* Servo HAT Allows for:
+  * External libraries which simplifies communication with multiple servo motors without leaning on PWM
+    *  Simplifies control to i2c where we only need
+  *  Flexible Power Supply (Battery or Wall)
+*  Use of Smaller Servo Motors allows for more compact design
+
+#### Getting the Time 
+
+* time.time()
+  * Returns the number of seconds since EPOCH (1/1/1970)
+* time.localtime(t)
+  * Takes an input in seconds
+  * Returns the Date and Time of that input as a struct containing hours, minutes, seconds, current month, year, and more
+* Data converted to 12 hour clock format
+* Time Multiplier:
+  * Subtract current time and initial time, multiply by facto
 
 ### Software Design 
+
+#### Robot Control (Clock Class)
+
+* Stores previous servo positions (prevent twitch)
+* Holds Lookup Tables
+* Sets servo positions based on processed system time
+
+#### Open Source
+
+*Adafruit-circuitpython-servokit*
+
+* Setups register-level configuration of servos
+* i2c comms
+* PWM communication for position control
+* Easy API to access / control servos
 
 ## Run Locally
 
