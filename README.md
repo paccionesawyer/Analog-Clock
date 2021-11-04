@@ -15,8 +15,13 @@ Watch on [Youtube](https://www.youtube.com/watch?v=XxoPbqSJhxU&list=PL8x_oaw7WPI
 
 Our CAD design is three “Barrels” one for hours, one for minutes and another for seconds. 
 
+<img src="../../blob/main/media/cadModelISO.png" width="750">
+
+<img src="../../blob/main/media/fabricatedModel.png" width="750">
 
 We also had to design parts to holds the servo in the middle of the barrel with screwable clips.
+
+<img src="servomotorStand.png" width="750">
 
 ### Electronicss Design 
 
