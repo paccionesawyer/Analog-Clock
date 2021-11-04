@@ -7,6 +7,8 @@ The Analog Clock: Each group must build an analog clock that tells the time (cre
 
 https://user-images.githubusercontent.com/57788768/140411186-4c6056f9-7a67-407a-9bf7-f6a002e7d996.mp4
 
+Watch on [Youtube](https://www.youtube.com/watch?v=XxoPbqSJhxU&list=PL8x_oaw7WPIKmYdH6yHr6_GRv5VZokT7q&index=9)
+
 ## Design
 
 ### Mechanical Design
